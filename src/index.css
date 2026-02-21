@@ -30,3 +30,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ===== Header ===== */
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 24px;
+  background-color: var(--primary-green);
+}
+
+.logo-img {
+  height: 60px;
+  width: auto;
+}
+
+.logo-text {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  color: var(--primary-yellow);
+  letter-spacing: 1px;
+}
