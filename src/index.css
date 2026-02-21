@@ -1,0 +1,32 @@
+/* ===== CSS Custom Properties (Little Lemon Brand) ===== */
+:root {
+  --primary-green: #495e57;
+  --primary-yellow: #f4ce14;
+  --secondary-salmon: #ee9972;
+  --secondary-peach: #fbdabb;
+  --highlight-light: #edefee;
+  --highlight-dark: #333333;
+  --font-display: 'Markazi Text', serif;
+  --font-body: 'Karla', sans-serif;
+}
+
+/* ===== Base Reset & Body ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--highlight-dark);
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
