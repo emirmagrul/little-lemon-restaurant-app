@@ -1,8 +1,12 @@
 import { useReducer } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import HomePage from './HomePage';
+import AboutPage from './AboutPage';
+import MenuPage from './MenuPage';
 import BookingPage from './BookingPage';
 import ConfirmedBooking from './ConfirmedBooking';
+import OrderOnlinePage from './OrderOnlinePage';
+import LoginPage from './LoginPage';
 import { fetchAPI, submitAPI } from '../api';
 
 export const initializeTimes = () => {
@@ -34,6 +38,8 @@ function Main() {
     <main>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/menu" element={<MenuPage />} />
         <Route
           path="/booking"
           element={
@@ -45,6 +51,8 @@ function Main() {
           }
         />
         <Route path="/confirmed" element={<ConfirmedBooking />} />
+        <Route path="/order-online" element={<OrderOnlinePage />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
     </main>
   );

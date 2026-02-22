@@ -1,16 +1,122 @@
-# React + Vite
+# 🍋 Little Lemon Restaurant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern restaurant reservation web application built with React and Vite.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 About The Project
 
-## React Compiler
+Little Lemon is a multi-page restaurant web application that allows users to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Navigate between pages
+- View restaurant information
+- Browse the menu
+- Make table reservations
+- Validate booking forms dynamically
+- Run unit tests
 
-## Expanding the ESLint configuration
+This project demonstrates modern React development practices including routing, state management with useReducer, controlled components, and testing.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Built With
+
+- React
+- Vite
+- React Router
+- JavaScript (ES6+)
+- CSS
+- Jest
+- React Testing Library
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/little-lemon-restaurant-app.git
+cd little-lemon-restaurant-app
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run development server
+
+```bash
+npm run dev
+```
+
+The app runs at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧪 Running Tests
+
+```bash
+npm test
+```
+
+or
+
+```bash
+npm run test
+```
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── assets/
+ ├── components/
+ │    ├── Header.jsx
+ │    ├── Nav.jsx
+ │    ├── Footer.jsx
+ │    ├── BookingForm.jsx
+ │    ├── BookingPage.jsx
+ │    ├── ConfirmedBooking.jsx
+ │    └── ...
+ ├── data/
+ │    └── menuData.js
+ ├── tests/
+ │    ├── App.test.jsx
+ │    ├── Booking.test.jsx
+ │    └── setupTests.js
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+## ✨ Features
+
+- Dynamic booking time update using useReducer
+- Controlled form components
+- Client-side routing with React Router
+- Form validation
+- Component-based architecture
+- Unit testing setup
+
+---
+
+## 👨‍💻 Author
+
+Emir Mağrul
+
+---
+
+## 📄 License
+
+This project is developed for educational purposes.
