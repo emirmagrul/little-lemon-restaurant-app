@@ -2,44 +2,86 @@
   <a href="README_EN.md">🇬🇧 English</a>
 </p>
 
-# 🍋 Little Lemon Restaurant
+<h1 align="center">🍋 Little Lemon Restaurant</h1>
 
-Modern React + Vite tabanlı restoran rezervasyon uygulaması.
+<p align="center">
+  Modern Multi-Page Restaurant Reservation Application
+</p>
+
+<p align="center">
+  <a href="https://little-lemon-restaurant-app-olive.vercel.app">
+    <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge" />
+  </a>
+  <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Vite-5-purple?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/Router-6-red?style=for-the-badge" />
+</p>
 
 ---
 
-## 📌 Proje Hakkında
+## 📌 Proje Özeti
 
-Little Lemon, React ve Vite kullanılarak geliştirilmiş çok sayfalı bir restoran rezervasyon uygulamasıdır.
+Little Lemon, React ve Vite kullanılarak geliştirilmiş modern bir restoran rezervasyon uygulamasıdır.
 
-Bu proje aşağıdaki konuları göstermektedir:
+Bu proje aşağıdaki React konseptlerini göstermektedir:
 
-- React Router ile yönlendirme
+- Client-side routing (React Router)
 - useReducer ile state yönetimi
-- Controlled form yapısı
-- Dinamik form doğrulama
-- Jest & React Testing Library ile test yazımı
+- Controlled form bileşenleri
+- Dinamik form validasyonu
+- Çok sayfalı SPA mimarisi
+- Jest & React Testing Library ile unit test
 
 ---
 
 ## 🌐 Canlı Demo
 
-```
-https://little-lemon-restaurant-app-olive.vercel.app
-```
+<p align="center">
+  <a href="https://little-lemon-restaurant-app-olive.vercel.app">
+    <img src="https://img.shields.io/badge/OPEN%20LIVE%20DEMO-Click%20Here-success?style=for-the-badge" />
+  </a>
+</p>
 
 ---
 
 ## 📸 Ekran Görüntüleri
 
-```md
-![Ana Sayfa](./screenshots/home.png)
-![Hakkında](./screenshots/about.png)
-![Menü](./screenshots/menu.png)
-![Rezervasyon](./screenshots/booking.png)
-![Sipariş](./screenshots/order.png)
-![Giriş](./screenshots/login.png)
-```
+### 🏠 Ana Sayfa
+<p align="center">
+  <img src="./screenshots/home.png" width="80%" />
+</p>
+
+### 🍽 Menü & Sipariş
+<p align="center">
+  <img src="./screenshots/menu.png" width="48%" />
+  <img src="./screenshots/order.png" width="48%" />
+</p>
+
+### 📅 Rezervasyon
+<p align="center">
+  <img src="./screenshots/reservations.png" width="80%" />
+</p>
+
+### 🔐 Giriş & Hakkında
+<p align="center">
+  <img src="./screenshots/login.png" width="48%" />
+  <img src="./screenshots/about.png" width="48%" />
+</p>
+
+---
+
+## 🧠 Teknik Kararlar
+
+### 🔹 Neden useReducer?
+Rezervasyon saatlerinin dinamik olarak güncellenmesi için state geçişlerini daha öngörülebilir hale getirmek amacıyla useReducer tercih edilmiştir.
+
+### 🔹 Neden Vite?
+- Daha hızlı development server
+- Daha optimize build çıktısı
+- Modern ES module desteği
+
+### 🔹 Routing Yapısı
+React Router kullanılarak SPA mimarisi kurulmuş ve sayfa yenilemelerinde Vercel rewrite kuralı ile 404 problemi çözülmüştür.
 
 ---
 
@@ -52,6 +94,7 @@ https://little-lemon-restaurant-app-olive.vercel.app
 - CSS
 - Jest
 - React Testing Library
+- Vercel (Deployment)
 
 ---
 
@@ -79,6 +122,16 @@ npm test
 
 ---
 
+## 📦 Deployment
+
+Bu proje Vercel üzerinde deploy edilmiştir.
+
+Her `git push` sonrası otomatik production deployment yapılmaktadır.
+
+---
+
 ## 👨‍💻 Geliştirici
 
-Emir Mağrul
+**Emir Mağrul**
+
+---
